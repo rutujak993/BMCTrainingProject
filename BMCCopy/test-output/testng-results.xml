@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30136" started-at="2019-09-27T11:27:20 IST" finished-at="2019-09-27T11:27:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30136" started-at="2019-09-27T11:27:20 IST" finished-at="2019-09-27T11:27:50 IST">
+      <class name="testng.Flipkart">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testng.Flipkart@7fac631b]" name="beforeClass" is-config="true" duration-ms="7122" started-at="2019-09-27T11:27:20 IST" finished-at="2019-09-27T11:27:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TestLaunchFlipkart()[pri:1, instance:testng.Flipkart@7fac631b]" name="TestLaunchFlipkart" duration-ms="7302" started-at="2019-09-27T11:27:27 IST" finished-at="2019-09-27T11:27:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLaunchFlipkart -->
+        <test-method status="PASS" signature="TestLogin()[pri:2, instance:testng.Flipkart@7fac631b]" name="TestLogin" duration-ms="5516" started-at="2019-09-27T11:27:35 IST" depends-on-methods="testng.Flipkart.TestLaunchFlipkart" finished-at="2019-09-27T11:27:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogin -->
+        <test-method status="PASS" signature="TestSelectCategory()[pri:3, instance:testng.Flipkart@7fac631b]" name="TestSelectCategory" duration-ms="7582" started-at="2019-09-27T11:27:40 IST" depends-on-methods="testng.Flipkart.TestLogin" finished-at="2019-09-27T11:27:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSelectCategory -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng.Flipkart@7fac631b]" name="afterClass" is-config="true" duration-ms="2551" started-at="2019-09-27T11:27:48 IST" finished-at="2019-09-27T11:27:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.Flipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
