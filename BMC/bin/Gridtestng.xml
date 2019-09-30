@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="Test1">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="version" value="69"/>
+  <parameter name="platform" value="Any"/>
+  <parameter name="hubAddress" value="http://10.133.143.93:4444/wd/hub"/>
+    <classes>
+      <class name="testng.TestGMO"/>
+	</classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="browser" value="internet explorer"/>
+  <parameter name="version" value="11"/>
+  <parameter name="platform" value="Any"/>
+  <parameter name="hubAddress" value="http://10.133.143.93:4444/wd/hub"/>
+    <classes>
+      <class name="testng.TestFrames"/>
+	</classes>
+  </test> 
+  <test name="Test3">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="77"/>
+  <parameter name="platform" value="Any"/>
+  <parameter name="hubAddress" value="http://10.133.143.93:4444/wd/hub"/>
+    <classes>
+	  <class name="testng.Expedia"/>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
