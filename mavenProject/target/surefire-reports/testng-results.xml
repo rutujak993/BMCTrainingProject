@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101145" started-at="2019-09-27T16:07:32 IST" finished-at="2019-09-27T16:09:14 IST">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="76646" started-at="2019-09-27T16:07:33 IST" finished-at="2019-09-27T16:08:49 IST">
+      <class name="testng.Expedia">
+        <test-method status="PASS" signature="startDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.Expedia@6e06451e]" name="startDriver" is-config="true" duration-ms="10506" started-at="2019-09-27T16:07:33 IST" finished-at="2019-09-27T16:07:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.133.143.93:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Any]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="TestLaunchExpedia()[pri:1, instance:testng.Expedia@6e06451e]" name="TestLaunchExpedia" duration-ms="46456" started-at="2019-09-27T16:07:43 IST" finished-at="2019-09-27T16:08:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLaunchExpedia -->
+        <test-method status="PASS" signature="TestOpenSupportPage()[pri:2, instance:testng.Expedia@6e06451e]" name="TestOpenSupportPage" duration-ms="6994" started-at="2019-09-27T16:08:30 IST" depends-on-methods="testng.Expedia.TestLaunchExpedia" finished-at="2019-09-27T16:08:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOpenSupportPage -->
+        <test-method status="PASS" signature="TestSendFeedback()[pri:3, instance:testng.Expedia@6e06451e]" name="TestSendFeedback" duration-ms="7680" started-at="2019-09-27T16:08:37 IST" depends-on-methods="testng.Expedia.TestOpenSupportPage" finished-at="2019-09-27T16:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSendFeedback -->
+        <test-method status="PASS" signature="TestSwitchToFirstBrowser()[pri:4, instance:testng.Expedia@6e06451e]" name="TestSwitchToFirstBrowser" duration-ms="186" started-at="2019-09-27T16:08:44 IST" depends-on-methods="testng.Expedia.TestSendFeedback" finished-at="2019-09-27T16:08:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSwitchToFirstBrowser -->
+        <test-method status="PASS" signature="TestDestinationSelection()[pri:5, instance:testng.Expedia@6e06451e]" name="TestDestinationSelection" duration-ms="3092" started-at="2019-09-27T16:08:44 IST" depends-on-methods="testng.Expedia.TestSwitchToFirstBrowser" finished-at="2019-09-27T16:08:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDestinationSelection -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:testng.Expedia@6e06451e]" name="stopDriver" is-config="true" duration-ms="1684" started-at="2019-09-27T16:08:48 IST" finished-at="2019-09-27T16:08:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- testng.Expedia -->
+    </test> <!-- Test3 -->
+    <test name="Test2" duration-ms="101145" started-at="2019-09-27T16:07:32 IST" finished-at="2019-09-27T16:09:14 IST">
+      <class name="testng.TestFrames">
+        <test-method status="PASS" signature="startDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testng.TestFrames@5f2108b5]" name="startDriver" is-config="true" duration-ms="15402" started-at="2019-09-27T16:07:32 IST" finished-at="2019-09-27T16:07:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.133.143.93:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Any]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="TestLaunchFrames()[pri:1, instance:testng.TestFrames@5f2108b5]" name="TestLaunchFrames" duration-ms="14498" started-at="2019-09-27T16:07:48 IST" finished-at="2019-09-27T16:08:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLaunchFrames -->
+        <test-method status="PASS" signature="TestFramesInPage()[pri:2, instance:testng.TestFrames@5f2108b5]" name="TestFramesInPage" duration-ms="2450" started-at="2019-09-27T16:08:02 IST" depends-on-methods="testng.TestFrames.TestLaunchFrames" finished-at="2019-09-27T16:08:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFramesInPage -->
+        <test-method status="PASS" signature="TestFrameNavigation()[pri:3, instance:testng.TestFrames@5f2108b5]" name="TestFrameNavigation" duration-ms="68603" started-at="2019-09-27T16:08:05 IST" depends-on-methods="testng.TestFrames.TestFramesInPage" finished-at="2019-09-27T16:09:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFrameNavigation -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:testng.TestFrames@5f2108b5]" name="stopDriver" is-config="true" duration-ms="172" started-at="2019-09-27T16:09:13 IST" finished-at="2019-09-27T16:09:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- testng.TestFrames -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
